@@ -5,9 +5,10 @@ legend{
     margin-top: 20px;
 }
 
-IF {
-    max-width: 98px;
-    margin: 0 auto; /* centre horizontalement */
+.IF {
+    width: 800px;
+    margin: auto;
+    border: 4px solid maroon;
 }
 .entete {
     display: fleX;
@@ -26,20 +27,17 @@ IF {
 .nom { font-size: 1.4rem; }
 .coordonnees { color: grey; }
 
-.contenu { padding: 16px 20px; 
-            display: grid ;}
-    section  { background: blanchedalmond; 
-            padding: 12px; margin-bottom: 12px; ( DISTANCE ENTRE LES SECIONS)
+.contenu section  {
+    padding: 16PX 20px;
+    display: grid;
+    background: blanchedalmond;
+    margin-bottom: 12px;
+    padding: 12px;
+    
 }
-section h2 
-{ margin: 8px; 
-        color:maroon; 
-        }
-.contenu {
-        display: grid;
-        grid-template-columns: 2fr 2fr;
-        gap: 10px;
+section h2 {
+    font-size:1,4rem;
+    margin-bottom: 2px;
+    color: maroon;
+    padding-bottom:2px;
 }
-
-
-
