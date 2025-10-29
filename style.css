@@ -1,0 +1,45 @@
+legend{
+    font-size: 50px;
+    color: maroon;
+    text-align: center;
+    margin-top: 20px;
+}
+
+IF {
+    max-width: 98px;
+    margin: 0 auto; /* centre horizontalement */
+}
+.entete {
+    display: fleX;
+    gap: 16px;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+.photo img {
+    width: 200px;
+    height: 200px;
+    object-fit:cover;
+    border-radius: 80px;
+}
+.infos { flex: 1; }
+.nom { font-size: 1.4rem; }
+.coordonnees { color: grey; }
+
+.contenu { padding: 16px 20px; 
+            display: grid ;}
+    section  { background: blanchedalmond; 
+            padding: 12px; margin-bottom: 12px; ( DISTANCE ENTRE LES SECIONS)
+}
+section h2 
+{ margin: 8px; 
+        color:maroon; 
+        }
+.contenu {
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        gap: 10px;
+}
+
+
+
