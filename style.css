@@ -1,48 +1,72 @@
-legend{
-    font-size: 50px;
-    color: maroon;
-    text-align: center;
-    margin-top: 20px;
+legend {
+  font-size: 50px;
+  color: maroon;
+  text-align: center;
+  margin-top: 20px;
 }
 
 .IF {
-    width: 800px;
-    margin: auto;
-    border: 4px solid maroon;
+  max-width: 900px;
+  margin: auto;
+  border: 4px solid maroon;
 }
 .entete {
-    display: fleX;
-    gap: 16px;
-    align-items: center;
-    padding: 20px;
-    border-bottom: 1px solid rgb(255, 255, 255);
+  display: fleX;
+  gap: 16px;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  flex-wrap: wrap;
+  /* pour que sa reste jolie sur phone */
 }
 .photo img {
-    width: 200px;
-    height: 200px;
-    object-fit:cover;
-    border-radius: 80px;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 80px;
 }
-.infos { flex: 1; }
-.nom { font-size: 1.4rem; }
-.coordonnees { color: grey; }
+.infos {
+  flex: 1;
+}
+.nom {
+  font-size: 1.4rem;
+}
+.coordonnees {
+  color: grey;
+}
 
-.contenu section  {
-    padding: 16PX 20px;
-    display: grid;
-    background: blanchedalmond;
-    margin-bottom: 12px;
-    padding: 12px;
-    
+.contenu section {
+  padding: 16px 20px;
+  display: grid;
+  background: blanchedalmond;
+  margin-bottom: 12px;
+  padding: 12px;
 }
 section h2 {
-    font-size:1,4rem;
-    margin-bottom: 2px;
-    color: maroon;
-    padding-bottom:2px;
-
+  font-size: 1.4rem;
+  margin-bottom: 2px;
+  color: maroon;
+  padding-bottom: 2px;
 }
 body.dark {
   background-color: #121212;
-  color: #f1f1f1;
+  color: black;
+}
+body.dark .IF {
+  background-color: #1e1e1e;
+  border-color: #a0522d;
+}
+
+body.dark section {
+  background-color: #2a2a2a;
+}
+
+body.dark section h2 {
+  color: #ffcc80;
+  border-bottom-color: #ffcc80;
+}
+
+body.dark .entete {
+  background-color: #2a2a2a;
+  border-bottom-color: maroon;
 }
