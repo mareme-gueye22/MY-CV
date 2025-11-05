@@ -40,4 +40,9 @@ section h2 {
     margin-bottom: 2px;
     color: maroon;
     padding-bottom:2px;
+
+}
+body.dark {
+  background-color: #121212;
+  color: #f1f1f1;
 }
