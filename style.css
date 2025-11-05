@@ -9,49 +9,59 @@ legend {
   max-width: 900px;
   margin: auto;
   border: 4px solid maroon;
+  border-radius: 10px;
+  padding: 10px;
 }
+
 .entete {
-  display: fleX;
+  display: flex;
   gap: 16px;
   align-items: center;
   padding: 20px;
   border-bottom: 1px solid rgb(255, 255, 255);
-  flex-wrap: wrap;
-  /* pour que sa reste jolie sur phone */
+  flex-wrap: wrap; /* reste joli sur téléphone */
 }
+
 .photo img {
   width: 200px;
   height: 200px;
   object-fit: cover;
   border-radius: 80px;
 }
+
 .infos {
   flex: 1;
 }
+
 .nom {
   font-size: 1.4rem;
 }
+
 .coordonnees {
   color: grey;
 }
 
 .contenu section {
-  padding: 16px 20px;
-  display: grid;
   background: blanchedalmond;
   margin-bottom: 12px;
-  padding: 12px;
+  padding: 16px 20px;
+  border-radius: 8px;
 }
+
 section h2 {
   font-size: 1.4rem;
-  margin-bottom: 2px;
+  margin-bottom: 6px;
   color: maroon;
-  padding-bottom: 2px;
+  border-bottom: 2px solid maroon;
+  padding-bottom: 4px;
 }
+
+/* 🌙 Mode sombre */
 body.dark {
   background-color: #121212;
-  color: black;
+  color: #f1f1f1;
 }
+
 body.dark .IF {
   background-color: #1e1e1e;
   border-color: #a0522d;
